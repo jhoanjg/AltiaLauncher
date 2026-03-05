@@ -1,0 +1,8 @@
+/node_modules/
+/.vs/
+/.vscode/
+/target/
+/logs/
+/dist/
+# Mods (hosted on files.altiasoft.com.co)
+mods/

@@ -1,0 +1,22 @@
+# Archivo de Personalizacion - AltiaLauncher
+
+[ejs.app]
+title = "AltiaLauncher"
+
+[ejs.landing]
+# Cambia estas URLs por las de tus redes sociales
+mediaGitHubURL = "#"
+mediaXURL = "#"
+mediaInstagramURL = "https://www.instagram.com/jhoanjg/"
+mediaYouTubeURL = "https://www.tiktok.com/@mulatoplay"
+mediaDiscordURL = "https://discord.gg/a8mPngyR"
+
+[ejs.settings]
+# Cambia estas URLs cuando tengas tu repositorio
+sourceGithubLink = "#"
+supportLink = "#"
+
+[ejs.welcome]
+welcomeHeader = "BIENVENIDO A ALTIALAUNCHER"
+welcomeDescription = "Explora mapas y mundos unicos de Minecraft creados especialmente para ti. Descarga automaticamente los mods, mapas y resource packs necesarios para vivir la mejor experiencia. Solo inicia sesion y pulsa JUGAR."
+welcomeDescCTA = "Estas a solo unos clics de la aventura."

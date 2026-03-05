@@ -1,0 +1,147 @@
+{
+    "version": "1.0.0",
+    "discord": {
+        "clientId": "TU_DISCORD_CLIENT_ID",
+        "smallImageText": "AltiaLauncher",
+        "smallImageKey": "seal-circle"
+    },
+    "rss": "https://jhoanjg.github.io/altialauncher-files/news.rss",
+    "servers": [
+        {
+            "id": "AltiaServer-1.21.1",
+            "name": "Altia - Servidor Principal",
+            "description": "Servidor principal con mapas y mods personalizados",
+            "icon": "https://jhoanjg.github.io/altialauncher-files/icons/server-icon.png",
+            "version": "1.0.0",
+            "address": "play.tuservidor.com:25565",
+            "minecraftVersion": "1.21.1",
+            "mainServer": true,
+            "autoconnect": true,
+            "javaOptions": {
+                "supported": ">=21.x",
+                "suggestedMajor": 21,
+                "ram": {
+                    "recommended": 4096,
+                    "minimum": 2048
+                }
+            },
+            "discord": {
+                "shortId": "Altia",
+                "largeImageText": "Altia - Servidor Principal",
+                "largeImageKey": "server-main"
+            },
+            "modules": [
+
+                {
+                    "id": "net.fabricmc:fabric-loader:0.18.4",
+                    "name": "Fabric Loader",
+                    "type": "Fabric",
+                    "artifact": {
+                        "size": 1944518,
+                        "MD5": "56c00fa22e0452e8567be1feae73c3b9",
+                        "url": "https://jhoanjg.github.io/altialauncher-files/fabric/fabric-loader-0.18.4.jar"
+                    },
+                    "subModules": [
+                        {
+                            "id": "net.fabricmc:fabric-loader:0.18.4-1.21.1",
+                            "name": "Fabric Loader Version Manifest",
+                            "type": "VersionManifest",
+                            "artifact": {
+                                "size": 2847,
+                                "MD5": "1561b8773b3c061406afec32f7baaa38",
+                                "url": "https://jhoanjg.github.io/altialauncher-files/fabric/fabric-loader-0.18.4-1.21.1.json"
+                            }
+                        }
+                    ]
+                },
+
+                {
+                    "id": "net.fabricmc:fabric-api:0.92.0",
+                    "name": "Fabric API (Requerido)",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 2345678,
+                        "MD5": "CALCULA_EL_MD5",
+                        "url": "https://jhoanjg.github.io/altialauncher-files/mods/fabric-api-0.92.0.jar"
+                    }
+                },
+
+                {
+                    "id": "com.ejemplo:tu-mod-requerido:1.0.0",
+                    "name": "Tu Mod Requerido",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": true
+                    },
+                    "artifact": {
+                        "size": 567890,
+                        "MD5": "CALCULA_EL_MD5",
+                        "url": "https://jhoanjg.github.io/altialauncher-files/mods/tu-mod-requerido-1.0.0.jar"
+                    }
+                },
+
+                {
+                    "id": "com.ejemplo:tu-mod-opcional:1.0.0",
+                    "name": "Tu Mod Opcional",
+                    "type": "FabricMod",
+                    "required": {
+                        "value": false,
+                        "def": true
+                    },
+                    "artifact": {
+                        "size": 345678,
+                        "MD5": "CALCULA_EL_MD5",
+                        "url": "https://jhoanjg.github.io/altialauncher-files/mods/tu-mod-opcional-1.0.0.jar"
+                    }
+                },
+
+                {
+                    "id": "com.altia:mapa-principal-leveldat:1.0.0",
+                    "name": "Mapa Principal (level.dat)",
+                    "type": "File",
+                    "artifact": {
+                        "size": 4096,
+                        "path": "saves/MapaPrincipal/level.dat",
+                        "url": "https://jhoanjg.github.io/altialauncher-files/mapas/MapaPrincipal/level.dat"
+                    }
+                },
+                {
+                    "id": "com.altia:mapa-principal-region-0-0:1.0.0",
+                    "name": "Mapa Principal - Region 0,0",
+                    "type": "File",
+                    "artifact": {
+                        "size": 1048576,
+                        "path": "saves/MapaPrincipal/region/r.0.0.mca",
+                        "url": "https://jhoanjg.github.io/altialauncher-files/mapas/MapaPrincipal/region/r.0.0.mca"
+                    }
+                },
+
+                {
+                    "id": "com.altia:resource-pack:1.0.0",
+                    "name": "AltiaLauncher Resource Pack",
+                    "type": "File",
+                    "artifact": {
+                        "size": 10485760,
+                        "MD5": "CALCULA_EL_MD5",
+                        "path": "resourcepacks/AltiaPack.zip",
+                        "url": "https://jhoanjg.github.io/altialauncher-files/resourcepacks/AltiaPack.zip"
+                    }
+                },
+
+                {
+                    "id": "com.altia:opciones-default:1.0.0",
+                    "name": "Opciones por Defecto",
+                    "type": "File",
+                    "artifact": {
+                        "size": 2048,
+                        "path": "options.txt",
+                        "url": "https://jhoanjg.github.io/altialauncher-files/configs/options.txt"
+                    }
+                }
+            ]
+        }
+    ]
+}

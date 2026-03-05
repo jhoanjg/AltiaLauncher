@@ -1,0 +1,27 @@
+// IMPORTANTE: Reemplaza este Client ID con el de tu aplicacion registrada en Azure.
+// Guia: https://github.com/dscalzi/HeliosLauncher/blob/master/docs/MicrosoftAuth.md
+// Si no tienes uno propio, puedes usar el de Helios temporalmente para pruebas.
+exports.AZURE_CLIENT_ID = 'fd1ed477-572e-4c8d-95fe-3fd700a054db'
+
+
+// Opcodes
+exports.MSFT_OPCODE = {
+    OPEN_LOGIN: 'MSFT_AUTH_OPEN_LOGIN',
+    OPEN_LOGOUT: 'MSFT_AUTH_OPEN_LOGOUT',
+    REPLY_LOGIN: 'MSFT_AUTH_REPLY_LOGIN',
+    REPLY_LOGOUT: 'MSFT_AUTH_REPLY_LOGOUT'
+}
+// Reply types for REPLY opcode.
+exports.MSFT_REPLY_TYPE = {
+    SUCCESS: 'MSFT_AUTH_REPLY_SUCCESS',
+    ERROR: 'MSFT_AUTH_REPLY_ERROR'
+}
+// Error types for ERROR reply.
+exports.MSFT_ERROR = {
+    ALREADY_OPEN: 'MSFT_AUTH_ERR_ALREADY_OPEN',
+    NOT_FINISHED: 'MSFT_AUTH_ERR_NOT_FINISHED'
+}
+
+exports.SHELL_OPCODE = {
+    TRASH_ITEM: 'TRASH_ITEM'
+}
