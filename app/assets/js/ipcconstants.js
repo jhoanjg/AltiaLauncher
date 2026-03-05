@@ -1,7 +1,7 @@
 // IMPORTANTE: Reemplaza este Client ID con el de tu aplicacion registrada en Azure.
 // Guia: https://github.com/dscalzi/HeliosLauncher/blob/master/docs/MicrosoftAuth.md
 // Si no tienes uno propio, puedes usar el de Helios temporalmente para pruebas.
-exports.AZURE_CLIENT_ID = 'fd1ed477-572e-4c8d-95fe-3fd700a054db'
+exports.AZURE_CLIENT_ID = '1ce6e35a-126f-48fd-97fb-54d143ac6d45'
 
 
 // Opcodes
