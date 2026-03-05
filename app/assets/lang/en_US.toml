@@ -180,7 +180,7 @@ javaDownloadPrepare = "Preparando Descarga de Java.."
 javaDownloadFailureTitle = "Error al Descargar Java"
 javaDownloadFailureText = "Revisa la consola (CTRL + Shift + i) para mas detalles."
 javaRequired = "Java es Necesario<br>para Iniciar"
-javaRequiredMessage = 'Se requiere una instalacion valida de Java {major} x64 para iniciar.<br><br>Consulta la <a href="https://github.com/dscalzi/HeliosLauncher/wiki/Java-Management#manually-installing-a-valid-version-of-java">Guia de Gestion de Java</a> para instrucciones sobre como instalar Java manualmente.'
+javaRequiredMessage = 'Se requiere una instalacion valida de Java {major} x64 para iniciar.<br><br>Si tienes problemas, contacta con nosotros en Discord.'
 javaRequiredDismiss = "Entendido"
 javaRequiredCancel = "Volver"
 
@@ -203,7 +203,7 @@ downloadingFiles = "Descargando archivos.."
 errorDuringFileDownloadTitle = "Error al Descargar Archivos"
 preparingToLaunch = "Preparando para iniciar.."
 launchingGame = "Iniciando juego.."
-launchWrapperNotDownloaded = "El archivo principal, LaunchWrapper, no se descargo correctamente. Como resultado, el juego no puede iniciar.<br><br>Para solucionar este problema, desactiva temporalmente tu antivirus e inicia el juego de nuevo.<br><br>Si tienes tiempo, por favor <a href=\"https://github.com/dscalzi/HeliosLauncher/issues\">reporta un problema</a> y dinos que antivirus usas. Contactaremos con ellos para resolver el problema."
+launchWrapperNotDownloaded = "El archivo principal, LaunchWrapper, no se descargo correctamente. Como resultado, el juego no puede iniciar.<br><br>Para solucionar este problema, desactiva temporalmente tu antivirus e inicia el juego de nuevo.<br><br>Si el problema persiste, contactanos en Discord."
 doneEnjoyServer = "Listo. Disfruta del servidor!"
 minecraftOpening = "Minecraft esta abriendo, por favor espera.."
 checkConsoleForDetails = "Por favor revisa la consola (CTRL + Shift + i) para mas detalles."
